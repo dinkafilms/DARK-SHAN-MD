@@ -1,6 +1,6 @@
 {
   "__JSON__": true,
-  "AUTHOR": "kushansewmina1234",
+  "AUTHOR": "NADEENPOORNA",
   "LANGUAGE": "English",
   "LANGCODE": "en",
   "STRINGS": {
@@ -10,7 +10,7 @@
           "UPDATED_LOCAL": "*Successfully Updated!*"
       },
       "global": {
-          "botName": " Powered by DARK-SHAN-MD",
+          "botName": " Powered by DARK-NADEEN-BOT",
           "body": "𝑊ℎ𝑎𝑡𝑠𝑎𝑝𝑝 𝐵𝑜𝑡",
           "greet2" : "Sir",
           "pic1": "https://telegra.ph/file/8c4247c94ad072eb079ff.jpg",
@@ -24,10 +24,10 @@
          "dotbody" : "I'm Alive.",
           "promote": "Admin Role Given to my Darling",
           "pmallow": "*Hii,This is Secktor*\n*An assistant of My Master.*\nMy Master is busy right now.\nKindly Leave your Message.\n\n_I will inform him about your message asap......_",
-          "pmblock": "❌ Blocked*\n\n You have been blocked for spamming.\n\n _ Powered by DARK-SHAN-MD_",
-          "pmwarn": "✋Hii* \nPlease don't spam else I'll block you for spamming. _You have ${checkPermit.times} warning(s)._\n\n *Powered by DARK-SHAN-MD*",
-          "permited": "Hii ${tname} Sir*\n\nNow You are permitted by my owner to pm now.\n\n *Powered by DARK-SHAN-MD", 
-          "revoked" : "*Hii ${tname} Sir*\n\nYour pm permit permission has been prevoked now.\n\n _Powered by DARK-SHAN-MD_",
+          "pmblock": "❌ Blocked*\n\n You have been blocked for spamming.\n\n _ Powered by DARK-NADEEN-BOT_",
+          "pmwarn": "✋Hii* \nPlease don't spam else I'll block you for spamming. _You have ${checkPermit.times} warning(s)._\n\n *Powered by DARK-NADEEN-BOT*",
+          "permited": "Hii ${tname} Sir*\n\nNow You are permitted by my owner to pm now.\n\n *Powered by DARK-NADEEN-BOT", 
+          "revoked" : "*Hii ${tname} Sir*\n\nYour pm permit permission has been prevoked now.\n\n _Powered by DARK-NADEEN-BOT_",
           "demote": "Uhh,Admin Role Taken back",
           "antlink": "Link Detected.\n*Good Bye Sir*",
           "session": "\n*This is your session.sam.json,keep it safe and store it properly*\n_Now Upload This json file in Your Forked Repo_\n Connect your repo to Heroku and *Deploy Branch* and Bot will run for Always\n\n*Powered by DARK-SHAN-MD*",
