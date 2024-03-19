@@ -1,34 +1,36 @@
 /**
 ========================================================
 
-██████╗░░█████╗░██████╗░██╗░░██╗
-██╔══██╗██╔══██╗██╔══██╗██║░██╔╝
-██║░░██║███████║██████╔╝█████═╝░
-██║░░██║██╔══██║██╔══██╗██╔═██╗░
-██████╔╝██║░░██║██║░░██║██║░╚██╗
-╚═════╝░╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝
+ _______       ___      .______       __  ___ 
+|       \     /   \     |   _  \     |  |/  / 
+|  .--.  |   /  ^  \    |  |_)  |    |  '  /  
+|  |  |  |  /  /_\  \   |      /     |    <   
+|  '--'  | /  _____  \  |  |\  \----.|  .  \  
+|_______/ /__/     \__\ | _| `._____||__|\__\ 
+                                              
 
-░██████╗██╗░░██╗░█████╗░███╗░░██╗
-██╔════╝██║░░██║██╔══██╗████╗░██║
-╚█████╗░███████║███████║██╔██╗██║
-░╚═══██╗██╔══██║██╔══██║██║╚████║
-██████╔╝██║░░██║██║░░██║██║░╚███║
-╚═════╝░╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚══╝
-
-███╗░░░███╗██████╗░
-████╗░████║██╔══██╗
-██╔████╔██║██║░░██║
-██║╚██╔╝██║██║░░██║
-██║░╚═╝░██║██████╔╝
-╚═╝░░░░░╚═╝╚═════╝░
+.__   __.      ___       _______   _______  _______ .__   __. 
+|  \ |  |     /   \     |       \ |   ____||   ____||  \ |  | 
+|   \|  |    /  ^  \    |  .--.  ||  |__   |  |__   |   \|  | 
+|  . `  |   /  /_\  \   |  |  |  ||   __|  |   __|  |  . `  | 
+|  |\   |  /  _____  \  |  '--'  ||  |____ |  |____ |  |\   | 
+|__| \__| /__/     \__\ |_______/ |_______||_______||__| \__| 
+                                                              
+.______     ______   .___________.
+|   _  \   /  __  \  |           |
+|  |_)  | |  |  |  | `---|  |----`
+|   _  <  |  |  |  |     |  |     
+|  |_)  | |  `--'  |     |  |     
+|______/   \______/      |__|     
+                                  
 ========================================================
  Copyright (C) 2022.                                                                                        
  Licensed under the  GPL-3.0 License;                                                      
  You may not use this file except in compliance with the License.    
  It is supplied in the hope that it may be useful                                     
- * @project_name : DARK SHAN MD                                                                    
+ * @project_name : DARK NADEEN BOT                                                                   
  * @author : kushansewmina1234 <https://github.com/kushansewmina1234>   
- * @description : DARK SHAN MD ,A Multi-functional whatsapp bot.       
+ * @description : DARK NADEEN BOT ,A Multi-functional whatsapp bot.       
  * @version 0.0.1                                                                                             
  ========================================================
  **/
@@ -79,10 +81,10 @@ cmd({
 🎏️️ *Group:*
  https://whatsapp.com/channel/0029VaFLAgi90x2oD70Hwq1z
 
-🀄 *developer:*-KUSHAN SEWMINA
+🀄 *developer:*-NADEEN POORNA
 
 
-©️ *DARK SHAN MD 2024*`
+©️ *DARK NADEEN BOT 2024*`
         let buttonMessaged = {
             image: { url: await botpic() },
             caption: cap,
@@ -90,7 +92,7 @@ cmd({
             headerType: 4,
             contextInfo: {
                 externalAdReply: {
-                    title: "DARK SHAN MD-REPO",
+                    title: "DARK NADEEN BOT-REPO",
                     body: "Easy to Use",
                     thumbnail: log0,
                     mediaType: 4,
@@ -120,13 +122,13 @@ cmd({
         timestampe = speed();
         latensie = speed() - timestampe;
         let ter = `
-💐 *DARK SHAN MD* 💐
+💐 *DARK NADEEN BOT* 💐
 *🌟Description:* A WhatsApp bot with rich features, build in NodeJs to make your WhatsApp enjoyable.
 *⚡Speed:* ${latensie.toFixed(4)} ms
 *🚦Uptime:* ${runtime(process.uptime())}
 *🕸Version:* 0.0.1
 *👤Owner:*  ${Config.ownername}
-🎭 *POWER BY DARK SHAN MD*
+🎭 *POWER BY NADEEN POORNA*
 `;
         let buttonMessaged = {
             image: {
@@ -137,8 +139,8 @@ cmd({
             headerType: 4,
             contextInfo: {
                 externalAdReply: {
-                    title: `kushansewmina`,
-                    body: `Dark shan-Status`,
+                    title: `NADEEN POORNA`,
+                    body: `Dark dinka-Status`,
                     thumbnail: log0,
                     mediaType: 2,
                     mediaUrl: ``,
@@ -186,7 +188,7 @@ async(darkshan, msg) => {
     var neww = performance.now()
     var oldd = performance.now()
                   
-    respon = `*❲❒❳ dark shan md Server Info ❲❒❳*
+    respon = `*❲❒❳ dark nadeen bot Server Info ❲❒❳*
     
   *❲❒❳ Runtime:* ${runtime(process.uptime())}
   *❲❒❳ Speed:* ${latensie.toFixed(3)}/${(oldd - neww).toFixed(3)} ms
@@ -219,9 +221,9 @@ cmd({
 async(Void, citel,text,{isCreator}) => {
 
 if(!isCreator) return citel.reply(tlang().owner);
-let str="*All available themes in DARKSHAN*"
+let str="*All available themes in NADEEN*"
 str+=`
-1. DARKSHAN\n2.DARKSHAN-IN these are the themes of Secktor Userbot.\_Reply ${prefix}setvar THEME:DARKSHAN`
+1. NADEEN\n2.NADEEN-IN these are the themes of Secktor Userbot.\_Reply ${prefix}setvar THEME:NADEEN`
 return citel.reply(str)
     
 }
