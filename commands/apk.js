@@ -23,7 +23,7 @@ let result = await download(text)
             url: icon,
         }, 
         caption: `
-        \n ✧ *DARK SHAN MD  DOWNLOADER*
+        \n ✧ *DARK NADEEN BOT  DOWNLOADER*
         \n━━━━━━━━━━━━━━━━━━
         
         \n 📚 *ᴀᴘᴘ ɴᴀᴍᴇ:* ${getname}
@@ -40,7 +40,7 @@ let result = await download(text)
         },
         mimetype: "application/vnd.android.package-archive",
         fileName: getname,
-        caption: `👑 *DARKSHAN-MD V1*`,
+        caption: `👑 *DINKA FILMS V1*`,
     }, {
         quoted: citel,
     });
