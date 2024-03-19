@@ -15,7 +15,7 @@ const googleTTS = require("google-tts-api");
 const ytdl = require('ytdl-secktor')
 const fs = require('fs-extra')
 var videotime = 60000 // 1000 min
-var dlsize = 1000 // 1000mb
+var dlsize = 10000 // 10000mb
 /*
     //---------------------------------------------------------------------------
 cmd({
@@ -150,7 +150,7 @@ cmd({
                  Void.sendMessage(citel.chat, buttonMessage, { quoted: citel })
                  return fs.unlinkSync(`./${randomName}`);
                 } else {
-                    citel.reply(`❌ File size bigger than 100mb.`);
+                    citel.reply(`❌ File size bigger than 1000mb.`);
                 }
                 return fs.unlinkSync(`./${randomName}`);      
 
@@ -178,7 +178,7 @@ cmd({
                 caption: `
  ${anu.title}
 ╭───────────────◆
-│⿻ *DARK SHAN MD AUDIO INFO* 🌟
+│⿻ *DARK NADEEN BOT AUDIO INFO* 🌟
 │⿻ *Youtube Player* ✨
 │⿻ *Duration:* ${anu.timestamp}
 │⿻ *Viewers:* ${anu.views}
@@ -598,7 +598,7 @@ cmd(
                     mimetype: "video/mp4",
                     caption: `┏━━━━━━━━━━━━━┓
 
-𝙳𝙰𝚁𝙺 𝚂𝙷𝙰𝙽 𝙼𝙳 𝚃𝙸𝙺𝚃𝙾𝙺 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙴𝚁
+𝙳𝙰𝚁𝙺 NADEEN BOT 𝚃𝙸𝙺𝚃𝙾𝙺 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙴𝚁
 
 🖋️ *description*: ${data.respon.description}
 
