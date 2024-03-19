@@ -1,15 +1,15 @@
 {
-               "name": "DARK-SHAN-MD",
+               "name": "DARK-NADEEN-BOT",
                "version": "1.0.1",
-               "description": "Multi device whatsapp bot by DARKSHAN.",
+               "description": "Multi device whatsapp bot by NADEEN POORNA.",
                "main": "lib/client.js",
                "type": "commonjs",
                "license": "GPL-3.0",
    "scripts": {
-                "start": "pm2 start lib/client.js --deep-monitoring --attach --name DARKSHAN",
-                "stop": "pm2 stop DARKSHAN"
+                "start": "pm2 start lib/client.js --deep-monitoring --attach --name DINKA",
+                "stop": "pm2 stop NADEEN"
                 },
-               "author": "DARKSHAN",
+               "author": "NADEEN",
               "dependencies": {
                        
                        "@whiskeysockets/baileys": "^6.5.0",
@@ -118,10 +118,10 @@
                     },
                  "repository": {
                  "type": "git",
-                 "url": "git+https://github.com/kushansewmina1234/DARK-SHAN-MD.git"
+                 "url": "git+https://github.com/kushansewmina1234/DARK-NADEEN-BOT.git"
                   },
                  "bugs": {
-                 "url": "https://github.com/kushansewmina1234/DARK-SHAN-MD/issues"
+                 "url": "https://github.com/kushansewmina1234/DARK-NADEEN-BOT/issues"
                   },
-                 "homepage": "https://github.com/kushansewmina1234/DARK-SHAN-MD#readme"
+                 "homepage": "https://github.com/kushansewmina1234/DARK-NADEEN-BOT#readme"
                   }
