@@ -28,7 +28,7 @@
  You may not use this file except in compliance with the License.    
  It is supplied in the hope that it may be useful                                     
  * @project_name : DARK NADEEN BOT                                                                    
- * @author : kushansewmina1234 <https://github.com/kushansewmina1234>   
+ * @author : Nadeen Poorna <https://github.com/kushansewmina1234>   
  * @description : DARK NADEEN BOT ,A Multi-functional whatsapp bot @DINKA.       
  * @version 0.0.1                                                                                             
  ========================================================
