@@ -113,7 +113,7 @@ cmd({
             use: '<reply to any image/video.>',
         },
         async(Void, citel, text) => {
-            if (!citel.quoted) return citel.reply(`*Mention any Image or video Sir.*`);
+            if (!citel.quoted) return citel.reply(`*Mention කරපං Image එකක් හරි  video එකක් ....*`);
             let mime = citel.quoted.mtype
             pack = Config.packname
             author = Config.author
@@ -121,7 +121,7 @@ cmd({
                 let media = await citel.quoted.download();
                 citel.reply("*Processing Your request*");
                 let sticker = new Sticker(media, {
-                    pack: pack, // DINKA BOT
+                    pack: pack, // NADEEN BOT
                     author: author, // @NADEEN POORNA
                     type: text.includes("--crop" || '-c') ? StickerTypes.CROPPED : StickerTypes.FULL,
                     categories: ["🤩", "🎉"], // The sticker category
@@ -136,8 +136,8 @@ cmd({
                     .seconds > 20) return citel.reply("Cannot fetch videos longer than *20 Seconds*");
                 let media = await quoted.download();
                 let sticker = new Sticker(media, {
-                    pack: pack, // The pack name
-                    author: author, // The author name
+                    pack: pack, // NADEEN BOT
+                    author: author, // NADEEN POORNA
                     type: StickerTypes.FULL, // The sticker type
                     categories: ["🤩", "🎉"], // The sticker category
                     id: "12345", // The sticker id
